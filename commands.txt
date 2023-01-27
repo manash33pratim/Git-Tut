@@ -1,16 +1,25 @@
 git init // to initialize a git repo
 git status // to check the status of the repo
 git add <file-name> // to add the file in staging area
+git add . //to add all the files in one click
 git commit -m "<message>" // to commit with a message
+git remote add origin <HTTP link> //
+git push -u origin master // to push the MASTER branch
+
+if i want to add in another branch
+
+for creating a branch -> git branch -M //branch Name//
+if i want to push a branch into GitHub-> git push -u origin //branch-name//
+
+
+
 git log // to check all the commits
 git checkout <commit address>/<branch-name> //to go to the particular commit/branch
 git checkout master // to go to the master  
 touch .gitignore // to create a .gitignore file
 git merge <branch-name> // to merge a branch with the current branch
 git remote -v //
-git remote add origin <link> // 
-git branch -M main // 
-git push -u origin master // to push the master branch
-git push -u origin <branch-name> // to push a branch into GitHub
+ 
+
 touch REMADME.md // to add a readme file
 git clone <link> // to clone a repo
